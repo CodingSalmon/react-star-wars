@@ -1,0 +1,19 @@
+.StarshipPage {
+    display:flex;
+    justify-content:center;
+    height:93vh;
+    align-items:center;
+}
+
+.Starship {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:rgba(54,78,79);
+    border-radius:5px;
+    color:white;
+    padding:20px 40px 20px 0;
+}
+
+.Starship > a {
+    color:white;
+}
